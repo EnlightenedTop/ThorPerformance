@@ -37,7 +37,7 @@ body {
 /************************************/
 
 .background {
-    background: linear-gradient(0.2turn, rgb(1, 1, 1) 35%, #c52233 55%);
+    background: linear-gradient(0.23turn, rgb(1, 1, 1) 35%, #c52233 55%);
 }
 
 .hero-text-main {
@@ -87,7 +87,7 @@ body {
     font-weight: 500;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(0.15turn, rgb(1, 1, 1) 35%, #c52233 45%);
+    background: linear-gradient( 0.15turn, rgba(1, 1, 1) 35%, rgba(197, 34, 51) 45%);
 }
 
 .logo-img {
