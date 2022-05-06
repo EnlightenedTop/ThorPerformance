@@ -200,6 +200,7 @@ body {
     margin: 2rem 0 2rem 4.2rem;
     background-color: #ecf1f5;
     color: #c52233;
+    padding: 1.4rem 4.2rem;
 }
 
 .btn-forum:hover,
@@ -298,6 +299,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 9.2rem;
+    column-gap: 4.6rem;
 }
 
 .features-img {
