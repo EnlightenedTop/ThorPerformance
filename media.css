@@ -7,9 +7,6 @@
 /**************************************/
 
 @media (max-width: 84em) {
-    main {
-        min-height: -webkit-fill-available;
-    }
     .hero {
         max-width: fit-content;
     }
@@ -138,8 +135,10 @@
     .hero-section {
         text-align: center;
         padding: 0 6.4rem;
-        background-image: url(img/background/toyota2.jpg);
+        background: rgba(0, 0, 0, 0.4) url(img/background/mazda.jpg);
+        background-size: cover;
         background-position: center center;
+        background-blend-mode: darken;
     }
 }
 
@@ -184,5 +183,21 @@
     .btn:link,
     .btn:visited {
         margin: 2rem 0 0 2rem;
+    }
+    .form-cta input,
+    .form-cta select,
+    .form-cta label {
+        width: 100%;
+        height: 7rem;
+    }
+    .btn--form {
+        padding: 2.4rem 0;
+    }
+    .form-cta {
+        justify-items: stretch;
+        align-items: center;
+    }
+    .hero-text-secondary {
+        margin-bottom: 4.6rem;
     }
 }
