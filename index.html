@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="a landing page for a automobile workshop which modifies and improves the performance of your car" <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Thor Performance</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <a href="#"><img src="img/logo/text.png" class="logo-img" alt="thor performance logo" /></a>
+        </div>
+        <nav class="main-nav">
+            <a href="#contact" class="main-nav-link btn-nav">Contact</a>
+            <a href="#despre" class="main-nav-link btn-nav">Despre noi</a>
+            <a href="#cta" class="main-nav-link btn-nav">Incepe tuning-ul</a>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+    </header>
+    <main>
+        <div class="background">
+            <section class="hero-section">
+                <div class="hero container">
+                    <div class="hero-text-main">
+                        <h1 class="heading-primary"><span class="red-accent">Pasiune</span> pentru tuning și <span class="red-accent">performanță</span></h1>
+                        <p class="hero-text-secondary">
+                            Într-un atelier situat lângă Deva, modificam și reparam mașini cu pasiune pentru performanta si stil. Împreună vom face mașina viselor tale să devină realitate.
+                        </p>
+                        <a href="#cta" class="btn btn-big">Incepe tuning-ul</a>
+                        <a href="tel:+4072332749" class="btn btn-what">
+                            <ion-icon name="call-outline" class="icon-btn"></ion-icon>Suna acum!</a>
+            </section>
+            <section class="forum-section" id="contact">
+                <div class="container forum">
+                    <h2 class="heading-secondary">Hai sa discutam</h2>
+                    <p class="forum-description">Pentru discutii cu si despre masini va asteptam pe forumul nostru unde ne laudam cu masinile noastre ,modificarile facute, evenimente si multe altele,Sau ne puteti contacta pe numarul de telefon afisat / WhatsApp</p>
+                    <a href="https://www.red-engine.ro/" class="btn btn-big btn-forum">Hai pe forum!</a>
+                    <a href="tel:+4072332749" class="btn btn-what">
+                        <ion-icon name="call-outline" class="icon-btn"></ion-icon>Suna acum!</a>
+                </div>
+            </section>
+
+
+            <section class="about-section" id="despre">
+                <div class="container">
+                    <h2 class="heading-secondary h-pad">Cum ne deosebim de restul</h2>
+                </div>
+                <div class="container grid-2-cols grid-end">
+
+                    <!-- Performanta -->
+
+                    <div class="feature-text-box">
+                        <p class="heading-tertiary"><strong>Performanță</strong></p>
+                        <p class="feature-description">
+                            Pasiunea pentru performanță si calitate, ne împinge să modificăm mașini până prind aripi, prin piese special comandate si modificate dupa caz.
+                        </p>
+                    </div>
+
+                    <div class="features-img">
+                        <img src="img/features/mod.webp" class="feature-img" alt="modifing metal pipe for race car" /> </div>
+                    <!-- Design -->
+                    <div class="features-img">
+                        <img src="img/features/tuning.webp" class="feature-img" alt="mazda rx8 tuning" /> </div>
+
+                    <div class="feature-text-box">
+                        <p class="heading-tertiary"><strong>Design Vizual</strong></p>
+                        <p class="feature-description">
+                            Tuning vizual al autoturismului în orice stil , de la NFS la Fast and Furious la un eleron sau un simplu stiker, mașina viselor se aflta undeva intre imaginația ta și atelierul meu.
+                        </p>
+                    </div>
+
+
+                    <div class="feature-text-box">
+                        <p class="heading-tertiary"><strong>Siguranță</strong></p>
+                        <p class="feature-description">
+                            Experienta si premiile castigate de-a lungul a 20 de ani atat in tara cat si in afară iți stau la dispoziție 24/7 cand vine vorba proiectul tău aflat în desfășurare.
+                        </p>
+                    </div>
+
+                    <div class="features-img">
+                        <img src="img/features/support.webp" class="feature-img" alt="modifing metal pipe for race car" /> </div>
+                </div>
+            </section>
+            <section class="section-cta" id="cta">
+                <div class="container">
+                    <div class="cta">
+                        <div class="text-box-cta">
+                            <h2 class="heading-secondary form-heading">Prima consultanta gratis!</h2>
+                            <p class="cta-text">Completati formularul si prima consultanta privind proiectul tău este gratis! Spune-ne ideea ta despre cum ai vrea sa iti modifici masina,iar noi cautam piesele necesare si calculam cat te costa proiectul, gratuit!</p>
+
+                            <form class="form-cta">
+                                <div>
+                                    <label for="full-name">Nume complet</label>
+                                    <input type="text" id="full-name" placeholder="Popa Cristian" required></div>
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="email" id='email' placeholder="Cristi@google.com" required></div>
+                                <div>
+                                    <label for="select">Marca masinii</label>
+                                    <select id="select">
+                                <option value="" >Selecteaza marca masinii</option>
+                                <option value="Wolkswagen">Wolkswagen</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Porsche">Porsche</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="Audi">Audi</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Mazda">Mazda</option>
+                                <option value="Seat">Seat</option>
+                            </select></div>
+                                <div>
+                                    <label for="type">Model</label>
+                                    <input type="text" id="type" placeholder='Patrol 3'></div>
+                                <div>
+                                    <label for="tuning">Ce fel de tuning?</label>
+                                    <input type="text" id="tuning" placeholder="eleron"></div>
+                                <button class="btn btn--form">Inscriete acum!</button>
+                            </form>
+                        </div>
+                        <div class="cta-box-img" role="img" aria-label="tuning car"></div>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+    </main>
+    <footer class="footer">
+        <div class="container grid-footer">
+            <div class="logo-col">
+                <a href="" class="footer-logo"><img src="img/logo/text.png" alt="logo of the service" class="logo-img" /></a>
+                <ul class="social-links">
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="https://www.facebook.com/Red-engine-ro-102731594996267">
+                            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="copyright">
+                    Copyright &copy; <span class="year">2022</span> by Thor Performance, Inc. All rights reserved.
+                </p>
+            </div>
+            <div class="address-col">
+                <p class="footer-heading">Contact</p>
+                <address class="contacts">
+                    <p class="address">Soimus, strada principala,Jud. Hunedoara, Romania</p>
+                    
+                        <a class="footer-link" href="tel:+4072332749">+4072332749</a> <br />
+                        <a class="footer-link" href="mailto:ioancristian88@yahoo.com">ioancristian88@yahoo.com</a>
+                    </p>
+                </address>
+            </div>
+
+
+
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
