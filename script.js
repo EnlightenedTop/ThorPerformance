@@ -3,16 +3,18 @@
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
-
+const allLinks = document.querySelectorAll("a:link");
 btnNavEl.addEventListener("click", function() {
     headerEl.classList.toggle("nav-open");
 });
 
-///////////////////////////////////////////////////////////
-// Smooth scrolling animation
-
-///////////////////////////////////////////////////////////
-// Sticky navigation
+allLinks.forEach(function(link) {
+    link.addEventListener("click", function(e) {
+        if (link.classList.contains("btn-nav")) {
+            headerEl.classList.toggle("nav-open");
+        }
+    });
+});
 
 const sectionHeroEl = document.querySelector(".header");
 
