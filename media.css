@@ -8,7 +8,9 @@
 
 @media (max-width: 84em) {
     .hero {
-        max-width: fit-content;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
     }
     .heading-primary {
         font-size: 5.2rem;
@@ -38,7 +40,7 @@
         grid-row: 4;
     }
     .feature-text-box {
-        width: 75%;
+        width: 65%;
     }
     .features-img {
         width: 65%;
@@ -114,8 +116,10 @@
     .hero-section {
         text-align: center;
         padding: 0 6.4rem;
-        background-image: url(img/background/toyota2.jpg);
+        background: rgba(0, 0, 0, 0.4) url(img/background/mazda.jpg);
+        background-size: cover;
         background-position: center center;
+        background-blend-mode: darken;
     }
 }
 
@@ -132,75 +136,60 @@
     html {
         font-size: 50%;
     }
-    .hero-section {
-        text-align: center;
-        padding: 0 6.4rem;
-        background: rgba(0, 0, 0, 0.4) url(img/background/mazda.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-blend-mode: darken;
-    }
-}
-
-
-/**************************************/
-
-
-/*For phones*/
-
-
-/**************************************/
-
-@media (max-width: 36em) {
-    html {
-        font-size: 43.75%;
-    }
-    .hero-section {
-        height: 100vh;
-    }
-    .grid-footer {
-        grid-template-columns: 1fr;
-    }
-    .form-cta {
-        grid-template-columns: 1fr;
-    }
-    .logo-img {
-        height: 3rem;
-    }
-    .btn-what:link,
-    .btn-what:visited {
-        margin: 2rem 0 0 2rem;
-    }
-    .btn-forum:link,
-    .btn-forum:visited {
-        margin: 2rem 0 0 2rem;
-    }
-    .features-img {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 4.6rem;
-    }
-    .btn:link,
-    .btn:visited {
-        margin: 2rem 0 0 2rem;
-    }
-    .form-cta input,
-    .form-cta select,
-    .form-cta label {
-        width: 100%;
-        height: 7rem;
-    }
-    .btn--form {
-        padding: 2.4rem 0;
-    }
-    .form-cta {
-        justify-items: stretch;
-        align-items: center;
-    }
-    .hero-text-secondary {
-        margin-bottom: 4.6rem;
-    }
-    .social-links {
-        margin-bottom: 3.2rem;
+    /**************************************/
+    /*For phones*/
+    /**************************************/
+    @media (max-width: 36em) {
+        html {
+            font-size: 43.75%;
+        }
+        .hero-section {
+            height: 100vh;
+        }
+        .grid-footer {
+            grid-template-columns: 1fr;
+        }
+        .form-cta {
+            grid-template-columns: 1fr;
+        }
+        .logo-img {
+            height: 3rem;
+        }
+        .btn-what:link,
+        .btn-what:visited {
+            margin: 2rem 0 0 2rem;
+        }
+        .btn-forum:link,
+        .btn-forum:visited {
+            margin: 2rem 0 0 2rem;
+        }
+        .features-img {
+            width: 75%;
+            height: 75%;
+            margin-bottom: 4.6rem;
+        }
+        .btn:link,
+        .btn:visited {
+            margin: 2rem 0 0 2rem;
+        }
+        .form-cta input,
+        .form-cta select,
+        .form-cta label {
+            width: 100%;
+            height: 7rem;
+        }
+        .btn--form {
+            padding: 2.4rem 0;
+        }
+        .form-cta {
+            justify-items: stretch;
+            align-items: center;
+        }
+        .hero-text-secondary {
+            margin-bottom: 4.6rem;
+        }
+        .social-links {
+            margin-bottom: 3.2rem;
+        }
     }
 }
